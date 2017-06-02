@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<title>CHATBOT</title>
+	<meta charset="utf-8" />
+	
+	<link rel="stylesheet" type="text/css" href="style.css"/>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	
+	<script src="logic.js"></script>
+</head>
+
+<body class="body" style="background-color:#f6f6f6">
+	<div class="ChatArea">
+		<h2 id="title">NLP CHATBOT</h2>
+		<div id="messages">
+			<div class="botMessage">
+				Chatbot: Hi, what is your name?
+			</div>
+		</div>
+		<br>
+		<div class="ReplyArea">
+			Reply here: <input id="replyMsg" type="text" name="reply">
+			<input id="submit" type="submit" onclick="getMessage()" value="Submit">
+		</div>
+	</div>
+</body>
+
+</html>
